@@ -28,6 +28,7 @@ FridayButton.addEventListener("click", clicked);
 function clicked() {
     event.target.classList.add("clicked");
     DaysSelected += 1;
+    recalculate();
 }
 
 
