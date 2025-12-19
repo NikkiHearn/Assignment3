@@ -2,5 +2,11 @@
 
 // hint: you can change the style of an element by modifying the value of that element's .style.fontSize, or by updating its .classList.
 
-const modelButton = document.getElementById("model-button");
-durationButton.addEventListener("click", changeDuration);
+const submitButton = document.getElementById("submit-button");
+submitButton.addEventListener("click", submit);
+
+function submit() {
+    document.body.innerHTML = '<p>Thank you for submitting!<p>';
+    document.body.style.fontSize = '24px';
+    
+}
