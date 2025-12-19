@@ -34,7 +34,7 @@ function clicked() {
 /********* clear days *********/
 // when the clear-button is clicked, the "clicked" class is removed from all days, any other relevant variables are reset, and the calculated cost is set to 0.
 
-const ResetButton = document.getElementById("clear-button")
+const ResetButton = document.getElementById("clear-button");
 ResetButton.addEventListener("click", reset);
 
 function reset() {
@@ -52,7 +52,7 @@ function reset() {
 /********* change rate *********/
 // when the half-day button is clicked, set the daily rate to $20, add the "clicked" class to the "half" element, remove it from the "full" element, and recalculate the total cost.
 
-let HalfDayButton = document.getElementById("half")
+let HalfDayButton = document.getElementById("half");
 HalfDayButton.addEventListener("click", half);
 
 function half() {
@@ -65,7 +65,7 @@ function half() {
 
 // when the full-day button is clicked, the daily rate is set back to $35, the clicked class is added to "full" and removed from "half", and the total cost is recalculated.
 
-let FullDayButton = document.getElementById("full")
+let FullDayButton = document.getElementById("full");
 FullDayButton.addEventListener("click", full);
 
 function full() {

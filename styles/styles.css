@@ -47,14 +47,14 @@ h1 {
     text-align: center;
     margin: auto;
     font-size: 48px;
-    width: clamp(50%);
-    height: clamp(50%);
+    width: 50%;
+    height: 50%;
 
 }
 
 h2 {
     font-size: 36px;
-    padding-bottom: clamp(12px);
+    padding-bottom: 12px;
 }
 
 .large-text {
@@ -173,7 +173,7 @@ footer {
 .booking-page {
     width: 600px;
     text-align: center;
-    font-size: clamp(18px);
+    font-size: 18px;
     margin: auto;
 }
 
